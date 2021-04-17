@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  /*
+   * CSS image reference example.
+   */
+  background-image: url('../images/happy-planet-earth-globe.png');
+}
+.form {
+  text-align: left;
+}
+.formCountry {
+  display: flex;
+  justify-content: center;
+}
+
+.flag {
+  width: 350px;
+  height: 335px;
+}
+
+.text {
+  font-weight: bold;
+  display: flex;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.formControl {
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 40px;
+  width: 538px;
+}
+
+.listCountry {
+  font-size: 24px;
+  font-weight: bold;
+  max-width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+.countryName {
+  text-align: center;
+  color: cornsilk;
+  text-decoration: underline;
+}
+.languages {
+  padding-left: 0px;
+}
+.countryLanguages {
+  display: flex;
+}
+.capital {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.population {
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* .formGroup {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+} */
+.listLenges {
+  text-align: left;
+}
