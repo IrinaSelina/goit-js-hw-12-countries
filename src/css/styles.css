@@ -20,7 +20,7 @@ body {
 }
 .formCountry {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .flag {
@@ -51,8 +51,8 @@ body {
   margin: 0 auto;
 }
 .countryName {
-  text-align: center;
-  color: yellow;
+  /* text-align: center; */
+
   text-decoration: underline;
 }
 .languages {

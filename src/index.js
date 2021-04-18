@@ -23,13 +23,13 @@ function searchCountry(e) {
     if (data.length > 10) {
       error({
         text: "Too many matches found. Please enter a more specific query!",
-         delay: 3000
+         delay: 2000
       })
     }
     else if (data.status === 404) {
       error({
         text: "No country has been found. Please enter a more specific query!",
-        delay: 3000
+        delay: 2000
       })
     }
     else if (data.length === 1) {
@@ -41,7 +41,7 @@ function searchCountry(e) {
   }).catch(Error => {
     Error({
       text: "You must enter query parameters!",
-      delay: 3000
+      delay: 2000
     })
   })  
 }
