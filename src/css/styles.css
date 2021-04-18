@@ -13,6 +13,7 @@ body {
    * CSS image reference example.
    */
   background-image: url('../images/happy-planet-earth-globe.png');
+  background-size: cover;
 }
 .form {
   text-align: left;
@@ -30,7 +31,7 @@ body {
 .text {
   font-weight: bold;
   display: flex;
-  /* margin-left: auto;
+  /*argin-left: auto;
   margin-right: auto; */
 }
 
@@ -51,7 +52,7 @@ body {
 }
 .countryName {
   text-align: center;
-  color: cornsilk;
+  color: yellow;
   text-decoration: underline;
 }
 .languages {
@@ -77,4 +78,7 @@ body {
 } */
 .listLenges {
   text-align: left;
+}
+.textColor {
+  color: yellow;
 }
